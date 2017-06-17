@@ -1,0 +1,66 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+     resize:both;
+    overflow:auto;
+}
+.excel-table{
+	width :1000px;
+}
+.excel-row {
+	height: 20px;
+}
+
+.bold-text {
+	font-weight: 900;
+}
+
+.italic-text {
+	font-style: italic;
+}
+
+.underlined-text {
+	text-decoration: underline;
+}
+
+td,th {
+	width: 30px;
+	height: 20px;
+} 
+.all-buttons {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.main-table {
+	display: inline-block;
+}
+
+.row-buttons {
+	margin-bottom: 50px;
+}
+
+button {
+	width: 116px;
+    height: 34px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: #f5a623;
+    color: white;
+    border: 2px solid #cc7f00;
+}
+
+.delete-button {
+	display: block;
+	margin-top: 10px;
+	background-color: rgb(205, 50, 50); 
+	border: 2px solid rgb(205, 50, 50);
+	color: white;
+
+}
